@@ -1,9 +1,7 @@
-INFORME DE PROYECTO: "IA ADIVINADORA DE ANIMALES"
-Nombre del Estudiante:
-José Alfredo Prieto Amarán
-1. INTRODUCCIÓN
+INFORME DE PROYECTO: "IA ADIVINADORA DE ANIMALES"                                                                          Nombre del Estudiante:  José Alfredo Prieto Amarán
+                                                                   1. INTRODUCCIÓN
 
-El presente proyecto consiste en el desarrollo de un programa interactivo desarrollado en Python que implementa un sistema de adivinanza basado en un árbol de decisión. La aplicación, titulada "IA Adivinadora de Animales", tiene como finalidad interactuar con el usuario a través de una serie de preguntas de opción múltiple para determinar el animal en el que está pensando.
+El presente proyecto consiste en el desarrollo de un programa interactivo desarrollado en Python que implementa un sistema de "adivinanza" basado en un árbol de decisión. La aplicación, titulada "IA Adivinadora de Animales", tiene como finalidad interactuar con el usuario a través de una serie de preguntas de opción múltiple para determinar el animal en el que está pensando.
 
 La motivación para realizar este proyecto surge del interés por explorar cómo se pueden representar conocimientos complejos mediante estructuras de datos simples, específicamente utilizando diccionarios anidados en Python. Además, se buscó incorporar un mecanismo de aprendizaje automático básico que permita al programa ampliar su base de conocimientos cuando no logra adivinar correctamente, almacenando la información de manera persistente en un archivo externo.
 
@@ -13,7 +11,7 @@ El programa está diseñado para ser intuitivo y educativo, mostrando cómo la i
 
 El proyecto se compone de un único archivo Python que contiene toda la lógica del programa, más un archivo JSON que funciona como base de datos persistente:
 
-    adivinador.py (o el nombre que hayas asignado): Archivo principal que contiene el código fuente.
+   MiniIA.py: Archivo principal que contiene el código fuente.
 
     animales.json: Archivo generado automáticamente que almacena el árbol de conocimiento actualizado después de cada partida.
 
@@ -80,8 +78,6 @@ La interacción se realiza completamente por consola, con un diseño amigable qu
 
     Validación de entradas para evitar errores por datos incorrectos.
 
-    Mensajes claros y emojis para hacer la experiencia más atractiva (🐾, ✅, 🎉).
-
     Opción especial "No coincide con estas opciones" en los niveles finales para permitir el aprendizaje.
 
 2.3 Tecnologías y Herramientas Utilizadas
@@ -121,15 +117,5 @@ Desde una perspectiva técnica, este proyecto demuestra competencias en áreas f
     Manejo de excepciones.
 
     Interacción con el usuario a través de la consola.
-
-Como líneas de trabajo futuro, se podrían considerar las siguientes mejoras:
-
-    Implementar una interfaz gráfica para hacer el programa más accesible a usuarios no técnicos.
-
-    Permitir la exportación del árbol de conocimiento a formatos como PDF o HTML para visualizarlo.
-
-    Añadir la posibilidad de eliminar o modificar animales ya existentes en la base de datos.
-
-    Incorporar un sistema de puntuación que evalúe la eficiencia del árbol (número de preguntas necesarias para adivinar).
 
 En definitiva, el proyecto constituye una excelente base para entender conceptos fundamentales de inteligencia artificial y representación del conocimiento, con un resultado práctico, entretenido y funcional.
